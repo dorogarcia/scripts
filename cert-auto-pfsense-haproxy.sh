@@ -3,7 +3,7 @@
 # https://doro.es/certificado-lets-encrypt-autorenovable-pfsense/
 #
 # dg \4t doro.es
-# 2012.12.18
+# 2016.12.18
 #
 # ssh-keygen -t rsa
 # Copy public key to your PfSense user: System -> User Manager -> 'Your user' -> Authorized SSH Keys
