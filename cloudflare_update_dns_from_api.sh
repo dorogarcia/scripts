@@ -8,7 +8,7 @@
 # echo $_SERVER['REMOTE_ADDR'];
 # ?>
 
-MY_IP=$(curl -s https://doro.es/whatismyip_334234232429874928373947.php)
+MY_IP=$(curl -s https://doro.es/whatismyip_334234232429874928373947.php?`date +%s`)
 
 curl -s -X PUT "https://api.cloudflare.com/client/v4/zones/asda4g2ert254753j427i8juj8t8gtyhhgu/dns_records/184a439fad0b0513678hx83a78d890a1" \
 	-H "X-Auth-Email: my@email.com" \
